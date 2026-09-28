@@ -1,0 +1,53 @@
+{
+  "id": "pokefate-blue",
+  "title": "PokeFate BLUE",
+  "description": "Base de juego en español para PokeFate BLUE: fichas de entrenador y Pokémon, casillas de estrés, tiradas Fate y manual completo. Versión inicial, automatización parcial.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Adaptación técnica para Gonzalo Guzmán; reglas del PDF PokeFate BLUE (contacto: @Daluck98)"
+    }
+  ],
+  "esmodules": [
+    "scripts/system.mjs"
+  ],
+  "styles": [
+    "styles/system.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "en",
+      "name": "English (Spanish content)",
+      "path": "lang/es.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "trainer": {},
+      "pokemon": {}
+    },
+    "Item": {
+      "move": {},
+      "ability": {},
+      "gear": {},
+      "stunt": {}
+    }
+  },
+  "initiative": "4df + @initiative - @fatigue",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
+  "url": "https://github.com/Yotok798/PokeFate-Blue-Foundry-VVT",
+  "manifest": "https://raw.githubusercontent.com/Yotok798/PokeFate-Blue-Foundry-VVT/main/system.json",
+  "download": "https://raw.githubusercontent.com/Yotok798/PokeFate-Blue-Foundry-VVT/fca8cfbffe76f09bf113bf4f05174105fe02a602/PokeFateBLUE_Foundry14_v0.1.0.zip"
+}
